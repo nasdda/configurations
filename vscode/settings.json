@@ -1,147 +1,193 @@
 {
-    "vim.sneakReplacesF": true,
-    "vim.easymotion": true,
-    "vim.normalModeKeyBindings": [
-        {
-            "before": [
-                "g",
-                "i"
-            ],
-            "commands": [
-                "editor.action.goToImplementation"
-            ]
-        }
-    ],
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "y"
-            ],
-            "after": [
-                "\"",
-                "+",
-                "y"
-            ]
-        },
-        {
-            "before": [
-                "q"
-            ],
-            "after": [
-                "<leader>",
-                "<leader>",
-                "f"
-            ]
-        },
-        {
-            "before": [
-                "Q"
-            ],
-            "after": [
-                "<leader>",
-                "<leader>",
-                "F"
-            ]
-        }
-    ],
-    "vim.visualModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "y"
-            ],
-            "after": [
-                "\"",
-                "+",
-                "y"
-            ]
-        }
-    ],
-    "vim.handleKeys": {
-        // "<C-j>": false,
-        // "<C-p>": false,
-        "<C-a>": false,
-        "<C-c>": false,
-        "<C-d>": false,
-        "<C-e>": false,
-        "<C-f>": false,
-        "<C-g>": false,
-        "<C-h>": false,
-        "<C-i>": false,
-        "<C-k>": false,
-        "<C-l>": false,
-        "<C-m>": false,
-        "<C-n>": false,
-        "<C-o>": false,
-        "<C-q>": false,
-        "<C-r>": false,
-        "<C-s>": false,
-        "<C-t>": false,
-        "<C-u>": false,
-        "<C-v>": false,
-        "<C-w>": false,
-        "<C-x>": false,
-        "<C-y>": false,
-        "<C-z>": false,
-        "<D-a>": false,
-        "<D-c>": false,
-        "<D-d>": false,
-        "<D-e>": false,
-        "<D-f>": false,
-        "<D-g>": false,
-        "<D-h>": false,
-        "<D-i>": false,
-        "<D-j>": false,
-        "<D-k>": false,
-        "<D-l>": false,
-        "<D-m>": false,
-        "<D-n>": false,
-        "<D-o>": false,
-        "<D-p>": false,
-        "<D-q>": false,
-        "<D-r>": false,
-        "<D-s>": false,
-        "<D-t>": false,
-        "<D-u>": false,
-        "<D-v>": false,
-        "<D-w>": false,
-        "<D-x>": false,
-        "<D-y>": false,
-        "<D-z>": false
+  "workbench.colorTheme": "Default Light+",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.glyphMargin": true,
+  "vim.vimrc.enable": true,
+  "workbench.settings.applyToAllProfiles": [],
+  "window.zoomLevel": 1,
+  // "vim.sneakReplacesF": true,
+  "vim.easymotion": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "g",
+        "i"
+      ],
+      "commands": [
+        "editor.action.goToImplementation"
+      ]
     },
-    "editor.minimap.enabled": false,
-    "workbench.editor.enablePreview": true,
-    "git.openRepositoryInParentFolders": "never",
-    "workbench.colorTheme": "Night Owl Light (No Italics)",
-    "workbench.colorCustomizations": {
-        "editor.selectionBackground": "#ADD6FF",
-        "editor.selectionHighlightBackground": "#ADD6FF",
-        "editorCursor.foreground": "#000000",
-        "terminalCursor.foreground": "#000000",
-        // Theme customization
-        "contrastActiveBorder": "#ccc",
-        "contrastBorder": "#ccc",
-        "sideBarSectionHeader.background": "#ddd",
-        "sideBar.foreground": "#0d3464cc",
-        "sideBarTitle.foreground": "#3b5a81",
-        "sideBarSectionHeader.foreground": "#37567C",
-        "titleBar.activeBackground": "#112233",
-        "titleBar.activeForeground": "#eeefff",
-        "titleBar.border": "#303030",
-        "titleBar.inactiveBackground": "#000a11",
-        "sideBar.border": "#e3e3e3",
-        "sideBar.background": "#F3F3F3",
-        "statusBar.noFolderBackground": "#011627",
-        "statusBarItem.activeBackground": "#03648a",
-        "statusBarItem.hoverBackground": "#03648a",
-        "statusBarItem.prominentBackground": "#03648a",
-        "statusBarItem.prominentHoverBackground": "#03648a",
-        "statusBar.debuggingBackground": "#093760",
-        "statusBar.debuggingForeground": "#FFFFFF",
-        "statusBar.background": "#093760",
-        "statusBar.foreground": "#FFFFFF"
+    {
+      "before": [
+        "g",
+        "e"
+      ],
+      "commands": [
+        "editor.action.marker.next"
+      ]
     },
-    "editor.inlineSuggest.enabled": false,
-    "workbench.sideBar.location": "right",
-    "vim.easymotionKeys": "hklyuiopnm,qwertzxcvbasdgjf;QWERTYUIOPASDFGHJKLZXCVBNM12345",
-    "editor.cursorSurroundingLines": 5
+    {
+      "before": [
+        "g",
+        "r"
+      ],
+      "commands": [
+        "editor.action.goToReferences"
+      ]
+    },
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "y"
+      ],
+      "after": [
+        "\"",
+        "+",
+        "y"
+      ]
+    },
+    {
+      "before": [
+        "q"
+      ],
+      "after": [
+        "<leader>",
+        "<leader>",
+        "f"
+      ]
+    },
+    {
+      "before": [
+        "Q"
+      ],
+      "after": [
+        "<leader>",
+        "<leader>",
+        "F"
+      ]
+    },
+    {
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "after": [
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "K"
+      ],
+      "after": [
+        "a",
+        "<CR>",
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "y"
+      ],
+      "after": [
+        "\"",
+        "+",
+        "y"
+      ]
+    },
+    {
+      "before": [
+        "H"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "after": [
+        "$"
+      ]
+    }
+  ],
+  "vim.handleKeys": {
+    // "<C-j>": false,
+    // "<C-p>": false,
+    "<C-a>": false,
+    "<C-c>": false,
+    "<C-d>": false,
+    "<C-e>": false,
+    "<C-f>": false,
+    "<C-g>": false,
+    "<C-h>": false,
+    "<C-i>": false,
+    "<C-k>": false,
+    "<C-l>": false,
+    "<C-m>": false,
+    "<C-n>": false,
+    "<C-o>": false,
+    "<C-q>": false,
+    "<C-r>": false,
+    "<C-s>": false,
+    "<C-t>": false,
+    "<C-u>": false,
+    "<C-v>": false,
+    "<C-w>": false,
+    "<C-x>": false,
+    "<C-y>": false,
+    "<C-z>": false,
+    "<D-a>": false,
+    "<D-c>": false,
+    "<D-d>": false,
+    "<D-e>": false,
+    "<D-f>": false,
+    "<D-g>": false,
+    "<D-h>": false,
+    "<D-i>": false,
+    "<D-j>": false,
+    "<D-k>": false,
+    "<D-l>": false,
+    "<D-m>": false,
+    "<D-n>": false,
+    "<D-o>": false,
+    "<D-p>": false,
+    "<D-q>": false,
+    "<D-r>": false,
+    "<D-s>": false,
+    "<D-t>": false,
+    "<D-u>": false,
+    "<D-v>": false,
+    "<D-w>": false,
+    "<D-x>": false,
+    "<D-y>": false,
+    "<D-z>": false
+  },
+  "workbench.editor.enablePreview": true,
+  "git.openRepositoryInParentFolders": "never",
+  "editor.inlineSuggest.enabled": false,
+  "workbench.sideBar.location": "right",
+  "vim.easymotionKeys": "hklyuiopnm,qwertzxcvbasdgjf;QWERTYUIOPASDFGHJKLZXCVBNM12345",
+  "editor.cursorSurroundingLines": 5,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1,
+    "vscodevim.vim":1
+  },
+  "workbench.editor.wrapTabs": true
 }
