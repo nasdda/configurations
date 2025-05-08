@@ -97,6 +97,28 @@
         "<CR>",
         "<Esc>"
       ]
+    },
+    {
+      "before": [
+        "g",
+        "j"
+      ],
+      "after": [
+        "<C-d>",
+        "z",
+        "z"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "k"
+      ],
+      "after": [
+        "<C-u>",
+        "z",
+        "z"
+      ]
     }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
