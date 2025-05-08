@@ -189,5 +189,33 @@
     "asvetliakov.vscode-neovim": 1,
     "vscodevim.vim":1
   },
-  "workbench.editor.wrapTabs": true
+  "workbench.editor.wrapTabs": true,
+    "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#add6ffd1",
+    "editor.selectionHighlightBackground": "#fff70072",
+    "editorCursor.foreground": "#000000",
+    "terminalCursor.foreground": "#000000",
+    // Theme customization
+    "contrastActiveBorder": "#ccc",
+    "contrastBorder": "#ccc",
+    "sideBarSectionHeader.background": "#ddd",
+    "sideBar.foreground": "#0d3464cc",
+    "sideBarTitle.foreground": "#3b5a81",
+    "sideBarSectionHeader.foreground": "#37567C",
+    "titleBar.activeBackground": "#112233",
+    "titleBar.activeForeground": "#eeefff",
+    "titleBar.border": "#303030",
+    "titleBar.inactiveBackground": "#000a11",
+    "sideBar.border": "#e3e3e3",
+    "sideBar.background": "#F3F3F3",
+    "statusBar.noFolderBackground": "#011627",
+    "statusBarItem.activeBackground": "#03648a",
+    "statusBarItem.hoverBackground": "#03648a",
+    "statusBarItem.prominentBackground": "#03648a",
+    "statusBarItem.prominentHoverBackground": "#03648a",
+    "statusBar.debuggingBackground": "#093760",
+    "statusBar.debuggingForeground": "#FFFFFF",
+    "statusBar.background": "#093760",
+    "statusBar.foreground": "#FFFFFF"
+  },
 }
